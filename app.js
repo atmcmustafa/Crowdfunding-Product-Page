@@ -41,7 +41,7 @@ function controlCloseButton(e) {
 
 continueButtons.forEach((btn) => {
   btn.addEventListener("click", () => {
-    const projectModal = document.querySelector(".projectModal"); // projectModal'ı burada tanımlayın
+    const projectModal = document.querySelector(".projectModal"); 
     const checkBtn = document.querySelector(".checkBtn");
 
     projectModal.classList.add("hidden");
